@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,400;1,600&display=swap');
+
+
+.botCollection {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bot {
+    padding: 5px;
+    margin: 10px;
+    width: 190px;
+    border-radius: 2px;
+    border-radius: 0px;
+    border-radius: 0px;
+    background: #2b0402;
+    box-shadow: 5px 5px 4px #190201,
+        -5px -5px 4px #3d0603;
+}
+
+.botImage {
+    height: 180px;
+    cursor: pointer;
+}
+
+.botName {
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.catchPhrase {
+    text-align: left;
+    font-size: 8.5px;
+    word-wrap: break-word;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.name>button {
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.army {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 200px;
+    color: white;
+    padding: 20px;
+    background: #2B0402;
+}
+
+.armyCont {
+    display: flex;
+}
+
+.heading>h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.placeholder {
+    font-size: 48px;
+    font-style: italic;
+    opacity: 0.4;
+}
+
+.botBlue {
+    border-radius: 0px;
+    background: #2B0402;
+    box-shadow: 18px 18px 35px #190201,
+        -18px -18px 35px #3d0603;
+}
+
+.heading {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    justify-items: center;
+}
+
+.heading>img {
+    height: 40px;
+    border-radius: 50%;
+}

@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+    align-items: center;
+}
+
+.sortby{
+    display: flex;
+    height: 35px;
+}
+
+.sort{
+    margin-left:20px;
+    cursor: pointer;
+    padding: 4px;
+    opacity: 0.5;
+}
+
+.activeSort{
+    font-weight: 600;
+    opacity: 1;
+    font-size: 18px;
+}
